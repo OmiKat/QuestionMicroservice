@@ -57,6 +57,5 @@ public class QuestionController {
     public ResponseEntity<Integer> getScore(@RequestBody List<Response> responses){
         return service.getScore(responses);
     }
-
-
+    //completed
 }
